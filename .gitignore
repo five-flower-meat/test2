@@ -1,0 +1,24 @@
+.DS_Store
+.eslintcache
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+/src/components/chart/readme.md
+/test/test.html
+/test/test.js
+/build/dll.md
+/test/test.js
+/test/*.md
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

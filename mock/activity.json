@@ -1,0 +1,78 @@
+[
+  {
+    "url": "/market/activity",
+    "desc": "活动页面测试",
+    "mock": true,
+    "res": {
+      "errorInfo": {
+        "code": "200",
+        "message": "请求成功"
+      },
+      "data": {
+        "totalCount": 3,
+        "list": [
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "南京大区",
+            "people": "张三疯",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          },
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "南京大区",
+            "people": "王二小",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          },
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "南京大区",
+            "people": "小猪佩奇",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          },
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "南京大区",
+            "people": "大大",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          },
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "南京大区",
+            "people": "大大怪将",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          },
+          {
+            "num": 89983090,
+            "name": "咪咕圈圈迎新活动",
+            "address": "佩奇",
+            "people": "张三疯",
+            "date": "2018-08-24",
+            "status": "待评级",
+            "score": 2,
+            "opera": "详情"
+          }
+        ]
+      }
+    }
+  }
+]

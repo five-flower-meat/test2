@@ -1,0 +1,91 @@
+
+.train-card-main {
+  padding: 0 40px 0 24px;
+}
+.train-card-badge {
+  position: absolute;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border: 33px solid transparent;
+  border-right: 33px solid green;
+  border-top: 33px solid green;
+  top: 0;
+  right: 0;
+}
+.train-card-badge-small {
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-right: 15px solid #fff;
+  border-top: 15px solid #fff;
+  top: 0;
+  right: 0;
+}
+
+.train-card-badge__title {
+  width: 66px;
+  transform: rotate(45deg);
+  line-height: 30px;
+  position: absolute;
+  top: -23px;
+  left: -23px;
+  color: #fff;
+  text-align: center;
+}
+
+.train-card-main-item {
+  display: flex;
+  margin-top: 8px;
+}
+.train-card__title {
+  margin-top: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+}
+.train-card-main__left {
+  color: rgba(0, 0, 0, 0.45);
+  padding-right: 16px;
+  width: 56px;
+}
+.train-card-main__right {
+  flex: 1;
+}
+.train-card-bottom {
+  line-height: 50px;
+  background-color: #f7f9fa;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  border: 1px solid #e6e6e6;
+}
+.train-card-bottom-line {
+  color: #e6e6e6;
+}
+.train-card__join {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  display: flex;
+}
+.train-apply {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+// 弹出框样式设置
+.train-task-dialog {
+  .el-dialog__body {
+    padding: 0px 20px 16px;
+  }
+  // .el-form-item {
+  //   margin-bottom: 13px;
+  // }
+  .el-textarea__inner {
+    height: 88px;
+  }
+}
+.train-cancel-apply {
+  margin-left: 16px;
+}
